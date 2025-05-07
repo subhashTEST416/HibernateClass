@@ -9,12 +9,15 @@ import org.hibernate.cfg.Configuration;
 
 public class Main {
     public static void main(String[] args) {
+        
+        
+        
         System.out.println("Hello world!");
 
         Students s1= new Students();
-        s1.setRollNo(40);
-        s1.setSName("subhash");
-        s1.setSage(38);
+        s1.setRollNo(54);
+        s1.setSName("shravan");
+        s1.setSage(35);
         System.out.println(s1);
 
 
